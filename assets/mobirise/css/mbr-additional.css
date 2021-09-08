@@ -3066,8 +3066,28 @@ a {
   padding-bottom: 6rem;
   background-color: #ffde59;
 }
+.cid-sIr6htJ7Ye .video-container iframe {
+
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
 .cid-sIr6htJ7Ye .video-wrapper iframe {
   width: 100%;
+}
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 .cid-sIr6htJ7Ye .mbr-section-title,
 .cid-sIr6htJ7Ye .mbr-section-subtitle,
